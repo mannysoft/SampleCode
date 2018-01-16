@@ -2,14 +2,14 @@
 
 ## Installation
 
-Install the pakcage using 
-	
+Install the package using
+
 	$ npm install
 
 ## Usage
 
 Update the `configuration.json` file under the `config` folder. For more information on `configuration.json` refer :
-	 
+
 * [Manual](https://github.com/visa/SampleCode/wiki/Manual)
 
 
