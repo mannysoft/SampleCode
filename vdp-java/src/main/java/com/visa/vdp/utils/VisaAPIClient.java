@@ -155,7 +155,7 @@ public class VisaAPIClient {
         return response;
     }
     
-    private static void logResponse(CloseableHttpResponse response) throws IOException {
+    protected void logResponse(CloseableHttpResponse response) throws IOException {
         Header[] h = response.getAllHeaders();
         
         // Get the response json object
