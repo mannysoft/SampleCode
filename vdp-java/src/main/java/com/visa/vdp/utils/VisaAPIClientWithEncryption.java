@@ -25,7 +25,7 @@ public class VisaAPIClientWithEncryption extends VisaAPIClient{
   }
   
   @Override
-  protected void logResponse(CloseableHttpResponse response) throws Exception {
+  protected void logResponse(CloseableHttpResponse response) throws IOException {
     Header[] h = response.getAllHeaders();
     
     // Get the response json object
@@ -57,6 +57,8 @@ public class VisaAPIClientWithEncryption extends VisaAPIClient{
         } catch (JsonProcessingException e) {
             logger.error(e.getMessage());
         } catch (IOException e) {
+            logger.error(e.getMessage());
+        } catch (Exception e) {
             logger.error(e.getMessage());
         }
     }

@@ -59,7 +59,10 @@ public enum Property {
     VTA_CREATE_CUSTOMER_ISACTIVE("vtaCreateCustomerIsActive"), 
     VTA_NEW_CARD_ADDRESS("vtaReplaceCardNewAddress"), 
     VTA_CREATE_CARD_ADDRESS("vtaCreateCustomerAddress"), 
-    TNS_CARD_ACCOUNT_NUMBERS("tnsCardNumbers");
+    TNS_CARD_ACCOUNT_NUMBERS("tnsCardNumbers"),
+    VPP_CLIENT_ENC_PRIVATE_KEY_PATH("vppClientEncPrivateKeyPath"),
+    VPP_SERVER_ENC_PUBLIC_CERT_PATH("vppServerEncPublicCertPath"),
+    VPP_KEYID("vppKeyId");
 
 
     String value;
