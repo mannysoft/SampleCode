@@ -1,0 +1,19 @@
+{
+  "name": "vdp_sample_node_code",
+  "url": "https://vdp.visa.com",
+  "version" : "1.0.0",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "dependencies": {
+    "request": "^2.69.0",
+    "mocha": "^2.4.5",
+    "randomstring": "^1.1.5",
+    "chai": "^3.5.0"
+  },
+  "jshintConfig": {
+    "options": {
+      "mocha": true
+    }
+  }
+}

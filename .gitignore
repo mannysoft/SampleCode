@@ -1,0 +1,120 @@
+/vdp-java/.classpath
+/vdp-java/.project
+/vdp-java/.settings/
+/vdp-java/target/
+/vdp-node/.jshintrc
+/vdp-node/.project
+/vdp-node/.settings/
+/vdp-node/.sublime-project
+/vdp-python/.project
+/vdp-python/.pydevproject
+/vdp-python/.eggs
+/vdp-python/build
+/vdp-python/dist
+/vdp-python/MANIFEST
+/vdp-python/vdp.egg-info
+.python-version
+*.pyc
+*.egg
+*.class
+/vdp-ruby/.bundle/
+/vdp-ruby/.yardoc
+/vdp-ruby/Gemfile.lock
+/vdp-ruby/_yardoc/
+/vdp-ruby/coverage/
+/vdp-ruby/doc/
+/vdp-ruby/pkg/
+/spec/reports/
+/tmp/
+*.bundle
+*.so
+*.o
+*.a
+mkmf.log
+/vdp-php/.buildpath
+/vdp-php/.project
+/vdp-php/.settings/
+/vdp-php/vendor/
+/vdp-php/composer.lock
+/vdp-php/composer.phar
+/vdp-node/.tern-project
+/vdp-node/node_modules/
+*__pycache__*
+
+# User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+# Build results
+/vdp-c-sharp/[Dd]ebug/
+/vdp-c-sharp/[Dd]ebugPublic/
+/vdp-c-sharp/[Rr]elease/
+/vdp-c-sharp/[Rr]eleases/
+/vdp-c-sharp/x64/
+/vdp-c-sharp/x86/
+/vdp-c-sharp/build/
+/vdp-c-sharp/bld/
+/vdp-c-sharp/[Bb]in/
+/vdp-c-sharp/[Oo]bj/
+
+# Roslyn cache directories
+*.ide/
+
+# MSTest test Results
+/vdp-c-sharp/[Tt]est[Rr]esult*/
+/vdp-c-sharp/[Bb]uild[Ll]og.*
+
+#NUNIT
+*.VisualState.xml
+TestResult.xml
+
+*_i.c
+*_p.c
+*_i.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Chutzpah Test files
+_Chutzpah*
+
+# Visual C++ cache files
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# If using the old MSBuild-Integrated Package Restore, uncomment this:
+#!**/packages/repositories.config

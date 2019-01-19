@@ -1,0 +1,4 @@
+(c) [2016] Visa. All Rights Reserved.
+This code is proprietary and the property of Visa.
+By accessing this code you are agreeing to Visa's terms of use (developer.visa.com/terms) and privacy policy (developer.visa.com/privacy)
+THIS CODE IS PROVIDED ON AN "AS IS," "AS AVAILABLE,"  "WITH ALL FAULTS" BASIS WITHOUT WARRANTY OF ANY KIND. YOUR USE IS AT YOUR OWN RISK.

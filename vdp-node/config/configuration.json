@@ -1,0 +1,18 @@
+{
+  "apiKey": "{put your api key here}",
+  "sharedSecret": "{put your shared secret here}",
+  "visaUrl": "{put your visa endpoint here}",
+  "userId": "{put your user id here}",
+  "password": "{put your password here}",
+  "cert": "{put the path to the certificate file here}",
+  "key": "{put the path to the private key here}",
+  "vctcTestPan" : "{put your pan number from test data under consumer rules api -> register a card here}",
+  "tnsPartnerBid" : "{put your visa notification service partner bid here}",
+  "tnsCardNumbers" : "{put your visa travel notification service card account numbers here}",
+  "mlcIssuerId" : "{put your enrollments api issuer id here}",
+  "mlcDeviceId" : "{put your enrollments api device id here}",
+  "mlcClientMessageID" : "{put your enrollments api client message id here}",
+  "mlcPrimaryAccountNumber" : "{put your enrollments api primary account number here}",
+  "mlcMessageId" : "{put your locations api message id here}",
+  "checkoutCallId" : "{put your visa checkout generated callId here}"
+}

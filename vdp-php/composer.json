@@ -1,0 +1,17 @@
+{
+    "name": "visa/vdp-php",
+    "description": "Visa Api Calls in PHP",
+    "license": "Visa",
+    "authors": [
+        {
+            "name": "Mradul Modi",
+            "email": "mmodi@visa.com"
+        }
+    ],
+    "require": {
+    	"php": ">=5.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    }
+}
